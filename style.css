@@ -1,0 +1,424 @@
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
+header nav {
+  background: rgb(18, 18, 18);
+}
+header nav div ul {
+  max-width: 996px;
+  margin: auto;
+}
+header nav div ul li:hover a {
+  color: white !important;
+}
+header nav div ul li:hover a i {
+  color: white;
+}
+header nav div ul li a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 0.8rem !important;
+  font-weight: 300 !important;
+}
+header nav div ul li a img {
+  width: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+header nav div ul li a .logo {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+header nav .burgermenu {
+  display: none;
+}
+header nav .burgermenu a:hover i {
+  color: white;
+}
+header nav .burgermenu a i {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+header nav .burgermenu .btn:hover i {
+  color: white;
+}
+header nav .burgermenu .btn i {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+main .firstPageIphoneInfo .main-text h1 {
+  font-size: 3.4rem;
+}
+main .firstPageIphoneInfo .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .firstPageIphoneInfo .main-text .main-link a p,
+main .firstPageIphoneInfo .main-text .main-link a span {
+  color: rgb(41, 151, 255);
+}
+main .firstPageIphoneInfo .iphones {
+  margin-top: -4rem;
+}
+main .firstPageIphoneInfo .iphones img {
+  max-width: 940px;
+}
+main .secondIphoneInfo .main-text {
+  background-color: rgb(250, 250, 250);
+}
+main .secondIphoneInfo .main-text h1 {
+  font-size: 3.4rem;
+}
+main .secondIphoneInfo .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .secondIphoneInfo .main-text .main-link a p,
+main .secondIphoneInfo .main-text .main-link a span {
+  color: rgb(50, 110, 214);
+}
+main .secondIphoneInfo .iphones {
+  background-color: rgb(250, 250, 250);
+}
+main .secondIphoneInfo .iphones img {
+  max-width: 780px;
+  width: 100%;
+}
+main .thirdSection .main-text {
+  background-color: rgb(242, 242, 244);
+}
+main .thirdSection .main-text h1 {
+  font-size: 3.4rem;
+  max-width: 560px;
+}
+main .thirdSection .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .thirdSection .main-text .main-link a p,
+main .thirdSection .main-text .main-link a span {
+  color: rgb(50, 110, 214);
+}
+main .thirdSection .allDevice {
+  background-color: rgb(242, 242, 244);
+}
+main .thirdSection .allDevice img {
+  max-width: 340px;
+  width: 100%;
+}
+main .CARDS .row {
+  gap: 12px;
+  margin-left: -3px;
+  padding-top: 12px;
+  min-height: 580px;
+}
+main .CARDS .card1-2 .card1 {
+  background-color: rgb(250, 250, 250);
+}
+main .CARDS .card1-2 .card1 .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card1-2 .card1 .macbook img {
+  max-width: 480px;
+}
+main .CARDS .card1-2 .card2 .main-text h4 img {
+  width: 2.3rem;
+}
+main .CARDS .card1-2 .card2 .main-text .main-link a {
+  color: rgba(41, 151, 255, 0.9);
+}
+main .CARDS .card1-2 .card2 .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card1-2 .card2 .ipadPro img {
+  padding-top: 1rem;
+  max-width: 500px;
+}
+main .CARDS .card3-4 .card3 {
+  background-color: rgb(250, 250, 250);
+}
+main .CARDS .card3-4 .card3 .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card3-4 .card3 .macStudio img {
+  max-width: 380px;
+}
+main .CARDS .card3-4 .card4 .main-text h1 {
+  letter-spacing: 2px;
+}
+main .CARDS .card3-4 .card4 .main-text .serıes8 {
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: rgb(210, 50, 50);
+}
+main .CARDS .card3-4 .card4 .main-text h4 img {
+  width: 2.3rem;
+}
+main .CARDS .card3-4 .card4 .main-text .main-link a {
+  color: rgba(41, 151, 255, 0.9);
+}
+main .CARDS .card3-4 .card4 .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card3-4 .card4 .appleWatch img {
+  width: 500px;
+}
+main .CARDS .card5-6 .card5 {
+  background: linear-gradient(rgb(25, 147, 203), rgb(135, 241, 255), rgb(190, 239, 245), rgb(250, 250, 250) 60%);
+}
+main .CARDS .card5-6 .card5 .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card5-6 .card5 .arcadeImg img {
+  padding-top: 1.5rem;
+  max-width: 450px;
+  width: 100%;
+}
+main .CARDS .card5-6 .card6 .main-text .main-link a {
+  color: rgba(72, 159, 241, 0.9);
+}
+main .CARDS .card5-6 .card6 .main-text .main-link a:hover p {
+  text-decoration: underline;
+}
+main .CARDS .card5-6 .card6 .womanIphone img {
+  max-width: 380px;
+  width: 75%;
+}
+
+footer .footer-con {
+  margin-top: 13px;
+  background-color: rgb(245, 245, 247);
+}
+footer .footer-con .contents {
+  max-width: 980px;
+}
+footer .footer-con .contents .footnote ol li {
+  font-size: 12px;
+  color: #6e6e73;
+  line-height: 1rem;
+}
+footer .footer-con .contents .footnote ol li span {
+  color: #424245;
+}
+footer .footer-con .contents .divider {
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.367);
+}
+footer .footer-con .contents .link-list h1 {
+  font-size: 12px;
+  font-weight: 600;
+}
+footer .footer-con .contents .link-list a {
+  text-decoration: none;
+  color: #424245;
+  font-size: 12px;
+}
+footer .footer-con .contents .link-list a:hover {
+  text-decoration: underline;
+}
+footer .footer-con .contents .MediumScreenList .accordion-item h2 button {
+  background-color: rgb(245, 245, 247);
+  font-size: 12px;
+  border-color: rgba(128, 128, 128, 0.367);
+  border-width: 1px !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.367) !important;
+  font-weight: 300;
+}
+footer .footer-con .contents .MediumScreenList .accordion-item h2 button:focus {
+  color: black;
+  box-shadow: none;
+  border-bottom: 0 !important;
+}
+footer .footer-con .contents .MediumScreenList .accordion-item h2 button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+footer .footer-con .contents .MediumScreenList .accordion-item ul {
+  background-color: rgb(245, 245, 247);
+}
+footer .footer-con .contents .MediumScreenList .accordion-item ul a li {
+  background-color: rgb(245, 245, 247);
+  font-size: 12px;
+  font-weight: 300;
+}
+footer .footer-con .contents .MediumScreenList .accordion-item ul a li:hover {
+  text-decoration: underline;
+}
+footer .footer-con .contents .part3 .shop {
+  line-height: 1rem;
+}
+footer .footer-con .contents .part3 .shop span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+footer .footer-con .contents .part3 .shop a {
+  color: #06c;
+  font-size: 12px;
+}
+footer .footer-con .contents .part3 .legal .copyright-country {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-con .contents .part3 .legal .copyright-country .copyright {
+  font-size: 12px;
+  color: #6e6e73;
+}
+footer .footer-con .contents .part3 .legal .copyright-country .country a {
+  color: #6e6e73;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer .footer-con .contents .part3 .legal .copyright-country .country a:hover {
+  text-decoration: underline;
+}
+footer .footer-con .contents .part3 .legal .legal-link a {
+  color: #424245;
+  font-size: 12px;
+}
+footer .footer-con .contents .part3 .legal .legal-link a:hover li {
+  text-decoration: underline;
+}
+footer .footer-con .contents .part3 .legal .legal-link a li {
+  border-right: 1px solid;
+  border-color: #6e6e73;
+}
+footer .footer-con .contents .part3 .legal .legal-link a .no-border {
+  border: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .firstPageIphoneInfo .iphones img {
+    margin-top: 4rem !important;
+    max-width: 680px !important;
+    height: 380px !important;
+  }
+  .CARDS .row {
+    min-height: 490px !important;
+  }
+  .CARDS .card1 .macbook img {
+    max-width: 300px !important;
+    width: 100% !important;
+  }
+  .CARDS .card2 .ipadPro img {
+    max-width: 360px !important;
+    width: 100%;
+  }
+  .CARDS .card3-4 .card4 .appleWatch img {
+    max-width: 340px !important;
+    width: 100% !important;
+  }
+  .CARDS .card5 .arcadeImg img {
+    max-width: 340px !important;
+    width: 90% !important;
+  }
+  .CARDS .card6 .womanIphone img {
+    max-width: 300px !important;
+    width: 80% !important;
+  }
+  footer .footer-con .contents {
+    padding: 0 1.3rem;
+  }
+  footer .footer-con .contents .footnote {
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 832px) {
+  .nav-wrapper .listed-navbar {
+    display: none;
+  }
+  .nav-wrapper .burgermenu {
+    display: flex;
+  }
+  .nav-wrapper .burgermenu .dropdown-menu {
+    margin-right: -20px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  a {
+    font-size: 1rem;
+  }
+  header nav .burgermenu #navbarNavDarkDropdown .dropdown-menu {
+    margin-right: -12px !important;
+    background-color: rgb(22, 22, 23) !important;
+  }
+  header nav .burgermenu #navbarNavDarkDropdown .dropdown-menu div li .dropdown-item:hover div {
+    display: flex !important;
+  }
+  .firstPageIphoneInfo h1 {
+    font-size: 2rem !important;
+  }
+  .firstPageIphoneInfo h4 {
+    font-size: 1.2rem !important;
+  }
+  .secondIphoneInfo h1 {
+    font-size: 2rem !important;
+  }
+  .secondIphoneInfo h4 {
+    font-size: 1.15rem !important;
+  }
+  .secondIphoneInfo .iphones img {
+    max-width: 360px !important;
+    width: 100%;
+    padding: 2rem 0 7rem 0;
+  }
+  .thirdSection .main-text {
+    background-color: rgb(242, 242, 244);
+  }
+  .thirdSection .main-text h1 {
+    font-size: 1.5rem !important;
+    max-width: 300px !important;
+  }
+  .thirdSection .main-text h4 {
+    max-width: 320px;
+    font-size: 1rem !important;
+  }
+  .thirdSection .main-text h4 sup {
+    font-size: 0.7rem !important;
+  }
+  .CARDS .card1-2 .card1 h4 {
+    font-size: 1.1rem !important;
+  }
+  .CARDS .card1-2 .card1 .macbook {
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+  }
+  .CARDS .card1-2 .card1 .macbook img {
+    width: 300px !important;
+    max-width: 75% !important;
+  }
+  .CARDS .card3-4 .card3 .main-text h4 {
+    max-width: 230px;
+    margin: auto;
+  }
+  .CARDS .card3-4 .card3 .macStudio img {
+    max-width: 320px !important;
+    width: 100%;
+  }
+  .CARDS .card3-4 .card4 .appleWatch img {
+    width: 100% !important;
+    max-width: 340px;
+  }
+  .CARDS .card5-6 .card5 .arcadeImg {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    max-width: 320px;
+    width: 100% !important;
+    margin: auto;
+  }
+  .CARDS .card5-6 .card6 .main-text .main-link a {
+    color: rgba(72, 159, 241, 0.9);
+  }
+  .CARDS .card5-6 .card6 .main-text .main-link a:hover p {
+    text-decoration: underline;
+  }
+  .CARDS .card5-6 .card6 .womanIphone img {
+    width: 340px !important;
+    max-width: 100% !important;
+  }
+  footer .footer-con .contents .footnote a {
+    font-size: 0.8rem;
+  }
+  footer .footer-con .contents .part3 .legal .copyright-country {
+    margin-top: 1rem;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
